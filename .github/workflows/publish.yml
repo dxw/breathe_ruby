@@ -21,5 +21,5 @@ jobs:
         bash .github/setup-rubygems.sh
     - name: Publish to Rubygems
       run: |
-        gem build mail-notify.gemspec
-        gem push "mail-notify-$(git describe --tags).gem"
+        gem build breathe.gemspec
+        gem push "breathe-$(git describe --tags).gem"
