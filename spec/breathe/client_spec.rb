@@ -10,4 +10,15 @@ RSpec.describe Breathe::Client, :vcr do
         .with(headers: {"Content-Type" => "application/json", "X-Api-Key" => ENV["BREATHE_API_KEY"]})
     end
   end
+
+  context "when the API key is incorrect" do
+    let(:client) { Breathe::Client.new(api_key: "this-is-fake") }
+
+    it "raises an error" do
+      expect { client.absences.list }.to raise_error(
+        Breathe::AuthenticationError,
+        "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
+      )
+    end
+  end
 end

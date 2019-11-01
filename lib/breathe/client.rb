@@ -20,6 +20,7 @@ module Breathe
 
     def connection
       Faraday.new(url: BASE_URL) do |faraday|
+        faraday.use Faraday::Response::RaiseError
         faraday.adapter Faraday.default_adapter
       end
     end
@@ -29,6 +30,13 @@ module Breathe
         req.url BASE_URL + url, url_opts
         req.headers["Content-Type"] = "application/json"
         req.headers["X-Api-Key"] = api_key
+      end
+    rescue Faraday::ClientError => e
+      case e.message
+      when /401/
+        raise Breathe::AuthenticationError, "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
+      else
+        raise e
       end
     end
   end
