@@ -1,4 +1,6 @@
 name: Build
+env:
+  BREATHE_API_KEY: "some-api-key"
 
 on: [push, pull_request]
 
