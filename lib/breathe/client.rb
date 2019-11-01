@@ -6,8 +6,8 @@ module Breathe
       @api_key = api_key
     end
 
-    def abscences
-      @_abscences ||= Abscences.new(connection)
+    def absences
+      @_absences ||= Absences.new(connection)
     end
 
     def get(url, url_opts = {})

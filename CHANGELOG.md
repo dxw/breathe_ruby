@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog]
 
+[0.1.1]
+
+- Fix typo on client that prevented absences from being returned
+
 [0.1.0]
 
 - Allow listing of absences
