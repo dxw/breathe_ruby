@@ -7,7 +7,7 @@ module Breathe
     end
 
     def absences
-      @_absences ||= Absences.new(connection)
+      @_absences ||= Absences.new(self)
     end
 
     def get(url, url_opts = {})
