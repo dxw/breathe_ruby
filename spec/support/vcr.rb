@@ -17,3 +17,24 @@ VCR.configure do |c|
     c.filter_sensitive_data("<#{key}>") { CGI.escape(value) }
   end
 end
+
+RSpec.configure do |config|
+  config.after(:each) do |example|
+    # Filter out JWT and bearer tokens from requests
+    filter_vars = [
+      "first_name",
+      "last_name",
+      "notes",
+      "leave_reason",
+      "email"
+    ]
+    if VCR.current_cassette && VCR.current_cassette.recording?
+      interactions = VCR.current_cassette.new_recorded_interactions
+      interactions.each do |interaction|
+        filter_vars.each do |var|
+          interaction.response.body.gsub! /"#{var}":".+"/, "\"first_name\":\"FILTERED\""
+        end
+      end
+    end
+  end
+end
