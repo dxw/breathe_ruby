@@ -24,9 +24,10 @@ RSpec.describe Breathe::Absences, :vcr do
     end
 
     it "allows filtering" do
-      described_class.new(client).list(start_date: Date.today, end_date: Date.today)
+      date = "2019-11-01"
+      described_class.new(client).list(start_date: Date.parse(date), end_date: date)
       expect(WebMock).to have_requested(:get, "https://api.breathehr.com/v1/absences")
-        .with(query: {"start_date" => Date.today.to_s, "end_date" => Date.today.to_s})
+        .with(query: {"start_date" => date, "end_date" => date})
     end
   end
 end
