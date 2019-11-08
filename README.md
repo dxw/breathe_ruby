@@ -39,7 +39,7 @@ client = Breathe::Client.new(api_key: YOUR_API_KEY)
 And use like so
 
 ```ruby
-client.absences
+client.absences.list
 #=> [
 #  {
 #    "employee"=>{"id"=>123, "email"=>"someone@somewhere.com", "first_name"=>"Jo", "last_name"=>"Bloggs"},
