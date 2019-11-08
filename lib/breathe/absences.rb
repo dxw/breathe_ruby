@@ -7,14 +7,8 @@ module Breathe
     end
 
     def list(args = {})
-      parse_response(client.get("absences", args))
-    end
-
-    private
-
-    def parse_response(request)
-      json = JSON.parse(request.body)
-      json["absences"]
+      response = client.get("absences", args)
+      Response.new(response, "absences")
     end
   end
 end

@@ -62,6 +62,10 @@ client.absences.list
 #  },
 #  ...
 #]
+client.absences.list.next_page
+# 2
+client.absences.list.per_page
+# 100
 ```
 
 You can also pass in arguments like so:

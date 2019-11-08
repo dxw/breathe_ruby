@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 01 Nov 2019 14:06:48 GMT
+      - Fri, 08 Nov 2019 15:14:46 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -41,9 +41,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - adaccd4f-112b-46d2-93c8-08bac14b530e
+      - 72b67761-22ae-40ff-83ba-3c6365e61001
       X-Runtime:
-      - '0.046737'
+      - '0.051087'
       Vary:
       - Origin
       X-Powered-By:
@@ -58,14 +58,14 @@ http_interactions:
             {
               "employee":{
                 "id":294865,
-                "email":"bob@dxw.com",
-                "first_name":"Robert",
-                "last_name":"Walker"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":344807,
-                "first_name":"Liam",
-                "last_name":"Hooker"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"TOIL",
@@ -81,7 +81,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Rugby World Cup",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2019-07-16T10:20:45+01:00",
               "updated_at":"2019-07-16T10:20:45+01:00"
@@ -89,14 +89,14 @@ http_interactions:
             {
               "employee":{
                 "id":491103,
-                "email":"rich@dxw.com",
-                "first_name":"Richard",
-                "last_name":"Cooley"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":409608,
-                "first_name":"Becs",
-                "last_name":"Hodges"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -117,14 +117,14 @@ http_interactions:
             {
               "employee":{
                 "id":136272,
-                "email":"alex.jackson@dxw.com",
-                "first_name":"Alex",
-                "last_name":"Jackson"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":344807,
-                "first_name":"Liam",
-                "last_name":"Hooker"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -145,14 +145,14 @@ http_interactions:
             {
               "employee":{
                 "id":370598,
-                "email":"ming@dxw.com",
-                "first_name":"Ming Lun",
-                "last_name":"Chan"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":541727,
-                "first_name":"Lindon",
-                "last_name":"Thaqi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -173,14 +173,14 @@ http_interactions:
             {
               "employee":{
                 "id":516783,
-                "email":"james.smith@dxw.com",
-                "first_name":"James",
-                "last_name":"Smith"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":541727,
-                "first_name":"Lindon",
-                "last_name":"Thaqi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -201,14 +201,14 @@ http_interactions:
             {
               "employee":{
                 "id":212234,
-                "email":"farrah@dxw.com",
-                "first_name":"Farrah",
-                "last_name":"Farhoudi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":344807,
-                "first_name":"Liam",
-                "last_name":"Hooker"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -229,14 +229,14 @@ http_interactions:
             {
               "employee":{
                 "id":208542,
-                "email":"hilary@dxw.com",
-                "first_name":"Hilary",
-                "last_name":"Chan"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":409608,
-                "first_name":"Becs",
-                "last_name":"Hodges"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -257,14 +257,14 @@ http_interactions:
             {
               "employee":{
                 "id":375392,
-                "email":"chris.pugh@dxw.com",
-                "first_name":"Chris",
-                "last_name":"Pugh"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":409608,
-                "first_name":"Becs",
-                "last_name":"Hodges"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -277,7 +277,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Getting the keys to my new house",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2019-10-15T09:17:50+01:00",
               "updated_at":"2019-10-15T09:17:50+01:00"
@@ -285,14 +285,14 @@ http_interactions:
             {
               "employee":{
                 "id":136271,
-                "email":"vita@dxw.com",
-                "first_name":"Vita",
-                "last_name":"Mangan"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":409608,
-                "first_name":"Becs",
-                "last_name":"Hodges"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -313,5 +313,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Fri, 01 Nov 2019 14:06:48 GMT
+  recorded_at: Fri, 08 Nov 2019 15:14:46 GMT
 recorded_with: VCR 5.0.0

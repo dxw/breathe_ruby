@@ -26,13 +26,13 @@ RSpec.configure do |config|
       "last_name",
       "notes",
       "leave_reason",
-      "email"
+      "email",
     ]
-    if VCR.current_cassette && VCR.current_cassette.recording?
+    if VCR.current_cassette&.recording?
       interactions = VCR.current_cassette.new_recorded_interactions
       interactions.each do |interaction|
         filter_vars.each do |var|
-          interaction.response.body.gsub! /"#{var}":".+"/, "\"first_name\":\"FILTERED\""
+          interaction.response.body.gsub! Regexp.new("\"#{var}\":\".+\""), "\"first_name\":\"FILTERED\""
         end
       end
     end

@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 01 Nov 2019 14:06:47 GMT
+      - Fri, 08 Nov 2019 15:14:45 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -33,10 +33,10 @@ http_interactions:
       Status:
       - 200 OK
       Link:
-      - <https://api.breathehr.com/v1/absences?page=21>; rel="last", <https://api.breathehr.com/v1/absences?page=2>;
+      - <https://api.breathehr.com/v1/absences?page=22>; rel="last", <https://api.breathehr.com/v1/absences?page=2>;
         rel="next"
       Total:
-      - '2095'
+      - '2129'
       Per-Page:
       - '100'
       Etag:
@@ -44,9 +44,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 59e9dbe0-f404-494b-b8f1-46ac34b44e53
+      - 95f9eb41-f0f2-4bcd-b143-1113d05534ac
       X-Runtime:
-      - '0.165123'
+      - '0.165773'
       Vary:
       - Origin
       X-Powered-By:
@@ -61,14 +61,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.5",
@@ -89,14 +89,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -117,14 +117,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -145,14 +145,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -173,14 +173,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -201,14 +201,14 @@ http_interactions:
             {
               "employee":{
                 "id":73703,
-                "email":"will@dxw.com",
-                "first_name":"Will",
-                "last_name":"Reddin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"7.0",
@@ -229,14 +229,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -249,7 +249,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Stockholm trip :)",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-06-15T17:05:10+01:00",
               "updated_at":"2015-06-15T17:05:10+01:00"
@@ -257,14 +257,14 @@ http_interactions:
             {
               "employee":{
                 "id":72373,
-                "email":"ian@dxw.com",
-                "first_name":"Ian",
-                "last_name":"Dow-Wright"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"0.5",
@@ -277,7 +277,7 @@ http_interactions:
               "half_end":true,
               "half_end_am_pm":"am",
               "cancelled":true,
-              "notes":"Personal meeting",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-06-16T15:36:30+01:00",
               "updated_at":"2015-07-02T10:51:01+01:00"
@@ -285,14 +285,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -305,7 +305,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Birthday break",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-06-16T15:41:39+01:00",
               "updated_at":"2015-06-16T15:41:39+01:00"
@@ -313,14 +313,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -333,7 +333,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Holiday with Mum & Dad",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-06-16T15:42:19+01:00",
               "updated_at":"2015-06-16T15:42:19+01:00"
@@ -341,14 +341,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -361,7 +361,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Christmas",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-06-16T15:46:14+01:00",
               "updated_at":"2015-06-16T15:46:14+01:00"
@@ -369,14 +369,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -389,7 +389,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":true,
-              "notes":"Dad's 90th Birthday",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-06-16T15:47:46+01:00",
               "updated_at":"2016-01-03T19:35:53+00:00"
@@ -397,14 +397,14 @@ http_interactions:
             {
               "employee":{
                 "id":72374,
-                "email":"philip@dxw.com",
-                "first_name":"Philip",
-                "last_name":"Vieira"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"8.0",
@@ -425,14 +425,14 @@ http_interactions:
             {
               "employee":{
                 "id":72374,
-                "email":"philip@dxw.com",
-                "first_name":"Philip",
-                "last_name":"Vieira"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -453,14 +453,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"Other",
@@ -476,7 +476,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Traveling to the retreat + the retreat.\r\n\r\nNot contactable by the usual means, not near a computer.",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2015-06-16T17:41:53+01:00",
               "updated_at":"2015-08-05T16:45:32+01:00"
@@ -484,14 +484,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -504,7 +504,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Visiting family.\r\n\r\nNot contactable by the usual means, not near a computer.",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-06-16T17:42:32+01:00",
               "updated_at":"2015-06-16T17:42:32+01:00"
@@ -512,14 +512,14 @@ http_interactions:
             {
               "employee":{
                 "id":72401,
-                "email":"nina@dxw.com",
-                "first_name":"Nina",
-                "last_name":"Regli"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"16.0",
@@ -540,14 +540,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -568,14 +568,14 @@ http_interactions:
             {
               "employee":{
                 "id":72403,
-                "email":"tamas@dxw.com",
-                "first_name":"Tamas",
-                "last_name":"Horvath"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"6.0",
@@ -596,14 +596,14 @@ http_interactions:
             {
               "employee":{
                 "id":72373,
-                "email":"ian@dxw.com",
-                "first_name":"Ian",
-                "last_name":"Dow-Wright"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72089,
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -624,14 +624,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72089,
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -652,14 +652,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72089,
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -680,14 +680,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72089,
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -708,14 +708,14 @@ http_interactions:
             {
               "employee":{
                 "id":72405,
-                "email":"tomh@dxw.com",
-                "first_name":"Tom",
-                "last_name":"Hipkin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72089,
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -736,14 +736,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"0.5",
@@ -756,7 +756,7 @@ http_interactions:
               "half_end":true,
               "half_end_am_pm":"am",
               "cancelled":false,
-              "notes":"I'm going to a wedding in Newcastleland and hoping to get a lift around lunch time if possible?",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-02T19:00:00+01:00",
               "updated_at":"2015-07-02T19:00:00+01:00"
@@ -764,14 +764,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -784,7 +784,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Independence Day",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-03T17:13:02+01:00",
               "updated_at":"2015-07-03T17:13:02+01:00"
@@ -792,14 +792,14 @@ http_interactions:
             {
               "employee":{
                 "id":72375,
-                "email":"left@dxw.com",
-                "first_name":"Adam",
-                "last_name":"Onishi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.5",
@@ -820,14 +820,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -840,7 +840,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Veterans Day",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-03T17:39:48+01:00",
               "updated_at":"2015-07-03T17:39:48+01:00"
@@ -848,14 +848,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -868,7 +868,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Thanksgiving",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-03T17:40:13+01:00",
               "updated_at":"2015-07-03T17:40:13+01:00"
@@ -876,14 +876,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -896,7 +896,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Xmas",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-03T17:40:43+01:00",
               "updated_at":"2015-07-03T17:40:43+01:00"
@@ -904,14 +904,14 @@ http_interactions:
             {
               "employee":{
                 "id":72396,
-                "email":"alex@dxw.com",
-                "first_name":"Alex",
-                "last_name":"Sexton"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"12.0",
@@ -932,14 +932,14 @@ http_interactions:
             {
               "employee":{
                 "id":72405,
-                "email":"tomh@dxw.com",
-                "first_name":"Tom",
-                "last_name":"Hipkin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -960,14 +960,14 @@ http_interactions:
             {
               "employee":{
                 "id":72405,
-                "email":"tomh@dxw.com",
-                "first_name":"Tom",
-                "last_name":"Hipkin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -983,7 +983,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"48h tube strike",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2015-07-08T16:22:15+01:00",
               "updated_at":"2015-07-08T16:22:15+01:00"
@@ -991,14 +991,14 @@ http_interactions:
             {
               "employee":{
                 "id":72373,
-                "email":"ian@dxw.com",
-                "first_name":"Ian",
-                "last_name":"Dow-Wright"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -1011,7 +1011,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Wedding anniversary",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-09T10:54:23+01:00",
               "updated_at":"2015-07-09T10:54:23+01:00"
@@ -1019,14 +1019,14 @@ http_interactions:
             {
               "employee":{
                 "id":72400,
-                "email":"magda@dxw.com",
-                "first_name":"Magda",
-                "last_name":"Faizov"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"Maternity",
@@ -1042,7 +1042,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Amending to correct end date",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2015-07-10T15:25:31+01:00",
               "updated_at":"2016-04-22T17:56:01+01:00"
@@ -1050,14 +1050,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -1081,14 +1081,14 @@ http_interactions:
             {
               "employee":{
                 "id":72398,
-                "email":"duncan@dxw.com",
-                "first_name":"Duncan",
-                "last_name":"Stuart"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -1101,7 +1101,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Music festival",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-22T11:43:14+01:00",
               "updated_at":"2015-07-22T11:43:14+01:00"
@@ -1109,14 +1109,14 @@ http_interactions:
             {
               "employee":{
                 "id":72405,
-                "email":"tomh@dxw.com",
-                "first_name":"Tom",
-                "last_name":"Hipkin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -1137,14 +1137,14 @@ http_interactions:
             {
               "employee":{
                 "id":72405,
-                "email":"tomh@dxw.com",
-                "first_name":"Tom",
-                "last_name":"Hipkin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -1165,14 +1165,14 @@ http_interactions:
             {
               "employee":{
                 "id":72375,
-                "email":"left@dxw.com",
-                "first_name":"Adam",
-                "last_name":"Onishi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"6.0",
@@ -1193,14 +1193,14 @@ http_interactions:
             {
               "employee":{
                 "id":72375,
-                "email":"left@dxw.com",
-                "first_name":"Adam",
-                "last_name":"Onishi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -1221,14 +1221,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -1241,7 +1241,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Labor Day",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-22T11:45:36+01:00",
               "updated_at":"2015-07-22T11:45:36+01:00"
@@ -1249,14 +1249,14 @@ http_interactions:
             {
               "employee":{
                 "id":72373,
-                "email":"ian@dxw.com",
-                "first_name":"Ian",
-                "last_name":"Dow-Wright"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -1269,7 +1269,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Adding an extra day to my four days off. Partly so that I can avoid rubbish tube situations.",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-23T15:57:21+01:00",
               "updated_at":"2015-07-23T15:57:21+01:00"
@@ -1277,14 +1277,14 @@ http_interactions:
             {
               "employee":{
                 "id":72398,
-                "email":"duncan@dxw.com",
-                "first_name":"Duncan",
-                "last_name":"Stuart"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -1297,7 +1297,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Back in Lithuania",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-23T15:57:34+01:00",
               "updated_at":"2015-08-25T15:48:43+01:00"
@@ -1305,14 +1305,14 @@ http_interactions:
             {
               "employee":{
                 "id":72089,
-                "email":"harry@dxw.com",
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"6.0",
@@ -1333,14 +1333,14 @@ http_interactions:
             {
               "employee":{
                 "id":72405,
-                "email":"tomh@dxw.com",
-                "first_name":"Tom",
-                "last_name":"Hipkin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"7.0",
@@ -1361,14 +1361,14 @@ http_interactions:
             {
               "employee":{
                 "id":73703,
-                "email":"will@dxw.com",
-                "first_name":"Will",
-                "last_name":"Reddin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -1389,14 +1389,14 @@ http_interactions:
             {
               "employee":{
                 "id":72402,
-                "email":"rose@dxw.com",
-                "first_name":"Rose",
-                "last_name":"Rees Jones"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -1409,7 +1409,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Stonehenge",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-28T19:41:13+01:00",
               "updated_at":"2015-07-28T19:41:13+01:00"
@@ -1417,14 +1417,14 @@ http_interactions:
             {
               "employee":{
                 "id":72375,
-                "email":"left@dxw.com",
-                "first_name":"Adam",
-                "last_name":"Onishi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"0.5",
@@ -1445,14 +1445,14 @@ http_interactions:
             {
               "employee":{
                 "id":72374,
-                "email":"philip@dxw.com",
-                "first_name":"Philip",
-                "last_name":"Vieira"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -1465,7 +1465,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"I need to be in Berlin this week.",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-07-31T15:30:31+01:00",
               "updated_at":"2015-07-31T15:30:31+01:00"
@@ -1473,14 +1473,14 @@ http_interactions:
             {
               "employee":{
                 "id":72403,
-                "email":"tamas@dxw.com",
-                "first_name":"Tamas",
-                "last_name":"Horvath"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -1496,7 +1496,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Tube strike",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2015-08-05T16:44:23+01:00",
               "updated_at":"2015-08-05T16:44:23+01:00"
@@ -1504,14 +1504,14 @@ http_interactions:
             {
               "employee":{
                 "id":72398,
-                "email":"duncan@dxw.com",
-                "first_name":"Duncan",
-                "last_name":"Stuart"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -1535,14 +1535,14 @@ http_interactions:
             {
               "employee":{
                 "id":72403,
-                "email":"tamas@dxw.com",
-                "first_name":"Tamas",
-                "last_name":"Horvath"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"11.0",
@@ -1555,7 +1555,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"https://www.youtube.com/watch?v=xJiXdGJFcDo#t=58 :)",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-08-07T17:40:51+01:00",
               "updated_at":"2015-08-07T17:40:51+01:00"
@@ -1563,14 +1563,14 @@ http_interactions:
             {
               "employee":{
                 "id":72375,
-                "email":"left@dxw.com",
-                "first_name":"Adam",
-                "last_name":"Onishi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -1594,14 +1594,14 @@ http_interactions:
             {
               "employee":{
                 "id":72396,
-                "email":"alex@dxw.com",
-                "first_name":"Alex",
-                "last_name":"Sexton"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -1625,14 +1625,14 @@ http_interactions:
             {
               "employee":{
                 "id":72396,
-                "email":"alex@dxw.com",
-                "first_name":"Alex",
-                "last_name":"Sexton"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -1656,14 +1656,14 @@ http_interactions:
             {
               "employee":{
                 "id":73703,
-                "email":"will@dxw.com",
-                "first_name":"Will",
-                "last_name":"Reddin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"TOIL",
@@ -1687,14 +1687,14 @@ http_interactions:
             {
               "employee":{
                 "id":72402,
-                "email":"rose@dxw.com",
-                "first_name":"Rose",
-                "last_name":"Rees Jones"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -1715,14 +1715,14 @@ http_interactions:
             {
               "employee":{
                 "id":72402,
-                "email":"rose@dxw.com",
-                "first_name":"Rose",
-                "last_name":"Rees Jones"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"TOIL",
@@ -1746,14 +1746,14 @@ http_interactions:
             {
               "employee":{
                 "id":73703,
-                "email":"will@dxw.com",
-                "first_name":"Will",
-                "last_name":"Reddin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"TOIL",
@@ -1769,7 +1769,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Day in lieu for retreat. ",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2015-08-12T16:58:58+01:00",
               "updated_at":"2015-08-12T16:58:58+01:00"
@@ -1777,14 +1777,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"TOIL",
@@ -1808,14 +1808,14 @@ http_interactions:
             {
               "employee":{
                 "id":72405,
-                "email":"tomh@dxw.com",
-                "first_name":"Tom",
-                "last_name":"Hipkin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -1839,14 +1839,14 @@ http_interactions:
             {
               "employee":{
                 "id":72398,
-                "email":"duncan@dxw.com",
-                "first_name":"Duncan",
-                "last_name":"Stuart"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"TOIL",
@@ -1870,14 +1870,14 @@ http_interactions:
             {
               "employee":{
                 "id":72401,
-                "email":"nina@dxw.com",
-                "first_name":"Nina",
-                "last_name":"Regli"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -1890,7 +1890,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Quick holiday in Switzerland for my fathers 70th b'day. ",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-08-26T11:47:01+01:00",
               "updated_at":"2015-08-26T11:47:01+01:00"
@@ -1898,14 +1898,14 @@ http_interactions:
             {
               "employee":{
                 "id":72398,
-                "email":"duncan@dxw.com",
-                "first_name":"Duncan",
-                "last_name":"Stuart"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -1918,7 +1918,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"European Swing Dance Championships",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-08-26T11:50:36+01:00",
               "updated_at":"2015-09-16T10:50:12+01:00"
@@ -1926,14 +1926,14 @@ http_interactions:
             {
               "employee":{
                 "id":72403,
-                "email":"tamas@dxw.com",
-                "first_name":"Tamas",
-                "last_name":"Horvath"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"TOIL",
@@ -1949,7 +1949,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"taking the day lost to the Hereford weekend",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2015-09-16T10:30:48+01:00",
               "updated_at":"2015-09-16T10:30:48+01:00"
@@ -1957,14 +1957,14 @@ http_interactions:
             {
               "employee":{
                 "id":72402,
-                "email":"rose@dxw.com",
-                "first_name":"Rose",
-                "last_name":"Rees Jones"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"WFH",
@@ -1988,14 +1988,14 @@ http_interactions:
             {
               "employee":{
                 "id":72402,
-                "email":"rose@dxw.com",
-                "first_name":"Rose",
-                "last_name":"Rees Jones"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -2016,14 +2016,14 @@ http_interactions:
             {
               "employee":{
                 "id":73703,
-                "email":"will@dxw.com",
-                "first_name":"Will",
-                "last_name":"Reddin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -2044,14 +2044,14 @@ http_interactions:
             {
               "employee":{
                 "id":72373,
-                "email":"ian@dxw.com",
-                "first_name":"Ian",
-                "last_name":"Dow-Wright"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -2064,7 +2064,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Going to my cousin's wedding.",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-09-16T12:12:15+01:00",
               "updated_at":"2015-09-16T12:12:15+01:00"
@@ -2072,14 +2072,14 @@ http_interactions:
             {
               "employee":{
                 "id":72398,
-                "email":"duncan@dxw.com",
-                "first_name":"Duncan",
-                "last_name":"Stuart"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -2092,7 +2092,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Lindy Shock (Budapest",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-09-16T12:12:25+01:00",
               "updated_at":"2015-10-28T15:56:29+00:00"
@@ -2100,14 +2100,14 @@ http_interactions:
             {
               "employee":{
                 "id":72396,
-                "email":"alex@dxw.com",
-                "first_name":"Alex",
-                "last_name":"Sexton"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"Other",
@@ -2131,14 +2131,14 @@ http_interactions:
             {
               "employee":{
                 "id":72373,
-                "email":"ian@dxw.com",
-                "first_name":"Ian",
-                "last_name":"Dow-Wright"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -2159,14 +2159,14 @@ http_interactions:
             {
               "employee":{
                 "id":73705,
-                "email":"lee@dxw.com",
-                "first_name":"Lee",
-                "last_name":"Maguire"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"Compassionate",
@@ -2190,14 +2190,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72089,
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"TOIL",
@@ -2221,14 +2221,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72089,
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2241,7 +2241,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Extended Christmas break",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-10-02T12:07:13+01:00",
               "updated_at":"2015-10-02T12:07:13+01:00"
@@ -2249,14 +2249,14 @@ http_interactions:
             {
               "employee":{
                 "id":72088,
-                "email":"vanessa@dxw.com",
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72089,
-                "first_name":"Harry",
-                "last_name":"Metcalfe"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"4.0",
@@ -2269,7 +2269,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Easter Festival of Plays in IOM",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-10-02T12:07:35+01:00",
               "updated_at":"2015-10-02T12:07:35+01:00"
@@ -2277,14 +2277,14 @@ http_interactions:
             {
               "employee":{
                 "id":73703,
-                "email":"will@dxw.com",
-                "first_name":"Will",
-                "last_name":"Reddin"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2305,14 +2305,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2325,7 +2325,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"I have a 12:01am ticket on the 17th to see Star Wars :D",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-10-21T10:37:13+01:00",
               "updated_at":"2015-10-21T10:37:13+01:00"
@@ -2333,14 +2333,14 @@ http_interactions:
             {
               "employee":{
                 "id":72375,
-                "email":"left@dxw.com",
-                "first_name":"Adam",
-                "last_name":"Onishi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2353,7 +2353,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Moving day!",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-10-22T12:14:11+01:00",
               "updated_at":"2015-10-22T12:14:11+01:00"
@@ -2361,14 +2361,14 @@ http_interactions:
             {
               "employee":{
                 "id":72375,
-                "email":"left@dxw.com",
-                "first_name":"Adam",
-                "last_name":"Onishi"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -2381,7 +2381,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Need to discuss this with Harry but it's for a conference in Milan. Probably will need to take it as holiday but will double check",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-10-22T12:14:24+01:00",
               "updated_at":"2015-10-22T12:14:24+01:00"
@@ -2389,14 +2389,14 @@ http_interactions:
             {
               "employee":{
                 "id":72403,
-                "email":"tamas@dxw.com",
-                "first_name":"Tamas",
-                "last_name":"Horvath"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2417,14 +2417,14 @@ http_interactions:
             {
               "employee":{
                 "id":72402,
-                "email":"rose@dxw.com",
-                "first_name":"Rose",
-                "last_name":"Rees Jones"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -2445,14 +2445,14 @@ http_interactions:
             {
               "employee":{
                 "id":72402,
-                "email":"rose@dxw.com",
-                "first_name":"Rose",
-                "last_name":"Rees Jones"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"Compassionate",
@@ -2468,7 +2468,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Shit hit the fan",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2015-11-06T15:59:06+00:00",
               "updated_at":"2015-11-06T15:59:06+00:00"
@@ -2476,14 +2476,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2504,14 +2504,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -2532,14 +2532,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2552,7 +2552,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":true,
-              "notes":"My grandmother's funeral is on Friday. Just found out this afternoon that she passed away :(",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-09T23:22:54+00:00",
               "updated_at":"2015-11-10T10:23:19+00:00"
@@ -2560,14 +2560,14 @@ http_interactions:
             {
               "employee":{
                 "id":72357,
-                "email":"leanne@dxw.com",
-                "first_name":"Leanne",
-                "last_name":"Garvie"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"Compassionate",
@@ -2591,14 +2591,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -2619,14 +2619,14 @@ http_interactions:
             {
               "employee":{
                 "id":72396,
-                "email":"alex@dxw.com",
-                "first_name":"Alex",
-                "last_name":"Sexton"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"5.0",
@@ -2647,14 +2647,14 @@ http_interactions:
             {
               "employee":{
                 "id":72396,
-                "email":"alex@dxw.com",
-                "first_name":"Alex",
-                "last_name":"Sexton"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":{
                 "name":"Other",
@@ -2670,7 +2670,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Day in lieu from retreat",
+              "first_name":"FILTERED",
               "type":"OtherLeave",
               "created_at":"2015-11-19T17:09:41+00:00",
               "updated_at":"2015-11-19T17:09:41+00:00"
@@ -2678,14 +2678,14 @@ http_interactions:
             {
               "employee":{
                 "id":72396,
-                "email":"alex@dxw.com",
-                "first_name":"Alex",
-                "last_name":"Sexton"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"3.0",
@@ -2706,14 +2706,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2726,7 +2726,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"US holiday",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-19T17:12:15+00:00",
               "updated_at":"2015-11-19T17:12:15+00:00"
@@ -2734,14 +2734,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2754,7 +2754,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"US holiday",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-19T17:13:31+00:00",
               "updated_at":"2015-11-19T17:13:31+00:00"
@@ -2762,14 +2762,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"0.0",
@@ -2782,7 +2782,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"US holiday",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-19T17:14:17+00:00",
               "updated_at":"2015-11-19T17:14:17+00:00"
@@ -2790,14 +2790,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2810,7 +2810,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"US holiday",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-19T17:16:11+00:00",
               "updated_at":"2015-11-19T17:16:11+00:00"
@@ -2818,14 +2818,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2838,7 +2838,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":true,
-              "notes":"US holiday",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-19T17:16:44+00:00",
               "updated_at":"2016-07-29T11:10:56+01:00"
@@ -2846,14 +2846,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"1.0",
@@ -2866,7 +2866,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"US holiday",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-19T17:48:49+00:00",
               "updated_at":"2015-11-19T17:48:49+00:00"
@@ -2874,14 +2874,14 @@ http_interactions:
             {
               "employee":{
                 "id":72404,
-                "email":"mallory@dxw.com",
-                "first_name":"Mallory",
-                "last_name":"Adams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -2894,7 +2894,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"US holiday",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-19T17:49:19+00:00",
               "updated_at":"2015-11-19T17:49:19+00:00"
@@ -2902,14 +2902,14 @@ http_interactions:
             {
               "employee":{
                 "id":72403,
-                "email":"tamas@dxw.com",
-                "first_name":"Tamas",
-                "last_name":"Horvath"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "approved_by":{
                 "id":72088,
-                "first_name":"Vanessa",
-                "last_name":"Montgomery Williams"
+                "first_name":"FILTERED",
+                "first_name":"FILTERED"
               },
               "leave_reason":null,
               "deducted":"2.0",
@@ -2922,7 +2922,7 @@ http_interactions:
               "half_end":false,
               "half_end_am_pm":null,
               "cancelled":false,
-              "notes":"Flying to Hungary",
+              "first_name":"FILTERED",
               "type":"Holiday",
               "created_at":"2015-11-30T10:22:42+00:00",
               "updated_at":"2015-11-30T10:22:42+00:00"
@@ -2930,5 +2930,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Fri, 01 Nov 2019 14:06:47 GMT
+  recorded_at: Fri, 08 Nov 2019 15:14:45 GMT
 recorded_with: VCR 5.0.0
