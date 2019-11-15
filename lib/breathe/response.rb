@@ -15,38 +15,31 @@ module Breathe
     end
 
     def per_page
-      response.headers.per_page
+      response.headers["per-page"].to_i
+    end
+
+    def first_page
+      get_page(:first)
     end
 
     def next_page
-      link_headers["next"].to_i unless link_headers.nil?
+      get_page(:next)
+    end
+
+    def previous_page
+      get_page(:prev)
     end
 
     def last_page
-      link_headers["last"].to_i unless link_headers.nil?
+      get_page(:last)
     end
 
     private
 
-    def body
-      data[type]
+    def get_page(rel_type)
+      self.class.new(response.rels[rel_type].get, type) if response.rels[rel_type]
     end
 
-    def link_headers
-      @link_headers ||= begin
-        return nil if response.headers["link"].nil?
-
-        parse_link_headers(response.headers["link"])
-      end
-    end
-
-    def parse_link_headers(header)
-      header.split(",").map { |header|
-        v, k = header.split(";")
-        k = k.match("rel=\"(.+)\"")[1]
-        v = v.match("page=([0-9]+)")[1]
-        [k, v]
-      }.to_h
     def body
       response.data[type]
     end
