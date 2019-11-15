@@ -4,8 +4,9 @@ module Breathe
 
     BASE_URL = "https://api.breathehr.com/v1/"
 
-    def initialize(api_key:)
+    def initialize(api_key:, auto_paginate: false)
       @api_key = api_key
+      @auto_paginate = auto_paginate
     end
 
     def absences
@@ -15,13 +16,17 @@ module Breathe
     def response(type, path, args)
       response = request(type, path, query: args)
 
-      return Response.new(response, path) if /^2+/.match?(response.status.to_s)
+      if @auto_paginate === true
+        parsed_response = Response.new(response, path)
+        while (next_page = parsed_response.next_page)
+          break if next_page.nil?
 
-      case response.status
-      when 401
-        raise Breathe::AuthenticationError, "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
+          parsed_response.concat(next_page)
+        end
+
+        parsed_response
       else
-        raise Breathe::UnknownError, "The BreatheHR API returned an unknown error"
+        Response.new(response, path)
       end
     end
 
@@ -39,7 +44,17 @@ module Breathe
       end
 
       @last_response = response = agent.call(method, path, data, options)
-      response
+
+      if /^2+/.match?(response.status.to_s)
+        response
+      else
+        case response.status
+        when 401
+          raise Breathe::AuthenticationError, "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
+        else
+          raise Breathe::UnknownError, "The BreatheHR API returned an unknown error"
+        end
+      end
     end
   end
 end

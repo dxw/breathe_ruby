@@ -10,6 +10,15 @@ module Breathe
       @type = type
     end
 
+    def concat(response)
+      @response = response.response
+      body.concat(response.body)
+    end
+
+    def body
+      @body ||= response.data[type]
+    end
+
     def total
       response.headers["total"].to_i
     end
@@ -38,10 +47,6 @@ module Breathe
 
     def get_page(rel_type)
       self.class.new(response.rels[rel_type].get, type) if response.rels[rel_type]
-    end
-
-    def body
-      response.data[type]
     end
   end
 end
