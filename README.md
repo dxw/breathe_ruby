@@ -40,32 +40,7 @@ And use like so
 
 ```ruby
 client.absences.list
-#=> [
-#  {
-#    "employee"=>{"id"=>123, "email"=>"someone@somewhere.com", "first_name"=>"Jo", "last_name"=>"Bloggs"},
-#    "approved_by"=>{"id"=>123, "first_name"=>"Jo", "last_name"=>"Bloggs"},
-#   "leave_reason"=>nil,
-#    "deducted"=>"4.0",
-#    "work_units"=>"4.0",
-#    "id"=>456,
-#    "start_date"=>"2015-06-18",
-#    "half_start"=>false,
-#    "half_start_am_pm"=>nil,
-#    "end_date"=>"2015-06-23",
-#    "half_end"=>false,
-#    "half_end_am_pm"=>nil,
-#    "cancelled"=>true,
-#    "notes"=>"",
-#    "type"=>"Holiday",
-#    "created_at"=>"2015-05-20T15:53:36+01:00",
-#    "updated_at"=>"2015-06-11T13:58:27+01:00"
-#  },
-#  ...
-#]
-client.absences.list.next_page
-# 2
-client.absences.list.per_page
-# 100
+#=> [...]
 ```
 
 You can also pass in arguments like so:
@@ -73,6 +48,27 @@ You can also pass in arguments like so:
 ```ruby
 client.absences(per_page: 12, start_date: Date.today)
 #=> [...]
+```
+
+### Pagination
+
+You can also paginate through the data like so:
+
+```ruby
+client.absences.list.next_page
+#=> [...]
+client.absences.list.previous_page
+#=> [...]
+client.absences.list.last_page
+#=> [...]
+client.absences.list.first_pages
+#=> [..]
+```
+
+If you don't want to paginate at all, you can initialize the client with the `auto_paginate` argument set to `true` like so:
+
+```ruby
+client = Breathe::Client.new(api_key: YOUR_API_KEY, auto_paginate: true)
 ```
 
 Only the absences endpoint is currently supported. PRs are accepted for more endpoints!
