@@ -1,4 +1,4 @@
-require "faraday"
+require "sawyer"
 
 require "breathe/version"
 require "breathe/client"

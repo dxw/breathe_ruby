@@ -12,10 +12,6 @@ RSpec.describe Breathe::Absences, :vcr do
         expect(WebMock).to have_requested(:get, "https://api.breathehr.com/v1/absences")
       end
 
-      it "has pagination methods" do
-        expect(absences.next_page).to eq(2)
-        expect(absences.last_page).to eq(22)
-        expect(absences.total).to eq(2129)
       end
     end
 
@@ -28,9 +24,6 @@ RSpec.describe Breathe::Absences, :vcr do
           .with(query: {"per_page" => "10"})
       end
 
-      it "has pagination methods" do
-        expect(absences.next_page).to eq(2)
-        expect(absences.last_page).to eq(213)
       end
     end
 
@@ -42,9 +35,6 @@ RSpec.describe Breathe::Absences, :vcr do
           .with(query: {"page" => "2"})
       end
 
-      it "has pagination methods" do
-        expect(absences.next_page).to eq(3)
-        expect(absences.last_page).to eq(22)
       end
     end
 
@@ -57,9 +47,7 @@ RSpec.describe Breathe::Absences, :vcr do
           .with(query: {"start_date" => date, "end_date" => date})
       end
 
-      it "has pagination methods" do
         expect(absences.next_page).to eq(nil)
-        expect(absences.last_page).to eq(nil)
       end
     end
   end

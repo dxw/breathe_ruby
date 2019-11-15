@@ -1,13 +1,12 @@
 module Breathe
   class Response
     extend Forwardable
-    attr_reader :data, :type, :response
+    attr_reader :response, :type
 
     delegate [:each, :find, :select, :count, :[]] => :body
 
     def initialize(response, type)
       @response = response
-      @data = JSON.parse(response.body)
       @type = type
     end
 
@@ -48,6 +47,8 @@ module Breathe
         v = v.match("page=([0-9]+)")[1]
         [k, v]
       }.to_h
+    def body
+      response.data[type]
     end
   end
 end
