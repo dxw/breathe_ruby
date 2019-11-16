@@ -5,7 +5,7 @@ module Breathe
 
     delegate [:each, :find, :select, :count, :[]] => :body
 
-    def initialize(response, type)
+    def initialize(response:, type:)
       @response = response
       @type = type
     end
@@ -43,10 +43,21 @@ module Breathe
       get_page(:last)
     end
 
+    def success?
+      return true if /^2+/.match?(response.status.to_s)
+
+      case response.status
+      when 401
+        raise Breathe::AuthenticationError, "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
+      else
+        raise Breathe::UnknownError, "The BreatheHR API returned an unknown error"
+      end
+    end
+
     private
 
     def get_page(rel_type)
-      self.class.new(response.rels[rel_type].get, type) if response.rels[rel_type]
+      self.class.new(response: response.rels[rel_type].get, type: type) if response.rels[rel_type]
     end
   end
 end
