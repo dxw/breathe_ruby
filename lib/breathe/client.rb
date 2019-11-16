@@ -13,20 +13,12 @@ module Breathe
       @absences ||= Absences.new(self)
     end
 
-    def response(type, path, args)
-      response = request(type, path, query: args)
+    def response(method:, path:, args:)
+      response = request(method: method, path: path, options: {query: args})
+      parsed_response = Response.new(response: response, type: path)
 
-      if @auto_paginate === true
-        parsed_response = Response.new(response, path)
-        while (next_page = parsed_response.next_page)
-          break if next_page.nil?
-
-          parsed_response.concat(next_page)
-        end
-
-        parsed_response
-      else
-        Response.new(response, path)
+      if parsed_response.success?
+        @auto_paginate ? auto_paginated_response(parsed_response) : parsed_response
       end
     end
 
@@ -37,24 +29,21 @@ module Breathe
       end
     end
 
-    def request(method, path, data, options = {})
-      if data.is_a?(Hash)
-        options[:query] = data.delete(:query) || {}
-        options[:headers] = data.delete(:headers) || {}
+    def request(method:, path:, data: {}, options: {})
+      @last_response = agent.call(method, path, data, options)
+      @last_response
+    end
+
+    private
+
+    def auto_paginated_response(parsed_response)
+      while (next_page = parsed_response.next_page)
+        break if next_page.nil?
+
+        parsed_response.concat(next_page)
       end
 
-      @last_response = response = agent.call(method, path, data, options)
-
-      if /^2+/.match?(response.status.to_s)
-        response
-      else
-        case response.status
-        when 401
-          raise Breathe::AuthenticationError, "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
-        else
-          raise Breathe::UnknownError, "The BreatheHR API returned an unknown error"
-        end
-      end
+      parsed_response
     end
   end
 end
