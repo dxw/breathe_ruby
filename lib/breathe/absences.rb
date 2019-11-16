@@ -7,8 +7,11 @@ module Breathe
     end
 
     def list(args = {})
-      response = client.get("absences", args)
-      Response.new(response, "absences")
+      client.response(
+        method: :get,
+        path: "absences",
+        args: args
+      )
     end
   end
 end

@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 08 Nov 2019 15:14:47 GMT
+      - Fri, 15 Nov 2019 14:31:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -36,7 +36,7 @@ http_interactions:
       - <https://api.breathehr.com/v1/absences?page=22>; rel="last", <https://api.breathehr.com/v1/absences?page=2>;
         rel="next"
       Total:
-      - '2129'
+      - '2137'
       Per-Page:
       - '100'
       Etag:
@@ -44,9 +44,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3cfd246f-1de8-440f-a8d5-25112bc1e4f1
+      - 23931238-d4f4-4393-9324-917bc8300249
       X-Runtime:
-      - '0.167430'
+      - '0.146317'
       Vary:
       - Origin
       X-Powered-By:
@@ -2930,5 +2930,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Fri, 08 Nov 2019 15:14:47 GMT
+  recorded_at: Fri, 15 Nov 2019 14:31:14 GMT
 recorded_with: VCR 5.0.0

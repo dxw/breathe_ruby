@@ -23,7 +23,7 @@ http_interactions:
       message: Unauthorized
     headers:
       Date:
-      - Fri, 08 Nov 2019 15:14:47 GMT
+      - Fri, 15 Nov 2019 14:31:14 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -35,9 +35,9 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - d54c8483-48d7-4d9b-9e1e-d5d8328a4689
+      - eda9b7dc-99cd-4b4f-a331-0b19cc881477
       X-Runtime:
-      - '0.095451'
+      - '0.110470'
       Vary:
       - Origin
       X-Powered-By:
@@ -48,5 +48,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"error":"401 Unauthorized"}'
     http_version: 
-  recorded_at: Fri, 08 Nov 2019 15:14:47 GMT
+  recorded_at: Fri, 15 Nov 2019 14:31:14 GMT
 recorded_with: VCR 5.0.0

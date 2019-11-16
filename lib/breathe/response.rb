@@ -1,14 +1,22 @@
 module Breathe
   class Response
     extend Forwardable
-    attr_reader :data, :type, :response
+    attr_reader :response, :type
 
     delegate [:each, :find, :select, :count, :[]] => :body
 
-    def initialize(response, type)
+    def initialize(response:, type:)
       @response = response
-      @data = JSON.parse(response.body)
       @type = type
+    end
+
+    def concat(response)
+      @response = response.response
+      body.concat(response.body)
+    end
+
+    def body
+      @body ||= response.data[type]
     end
 
     def total
@@ -16,38 +24,40 @@ module Breathe
     end
 
     def per_page
-      response.headers.per_page
+      response.headers["per-page"].to_i
+    end
+
+    def first_page
+      get_page(:first)
     end
 
     def next_page
-      link_headers["next"].to_i unless link_headers.nil?
+      get_page(:next)
+    end
+
+    def previous_page
+      get_page(:prev)
     end
 
     def last_page
-      link_headers["last"].to_i unless link_headers.nil?
+      get_page(:last)
+    end
+
+    def success?
+      return true if /^2+/.match?(response.status.to_s)
+
+      case response.status
+      when 401
+        raise Breathe::AuthenticationError, "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
+      else
+        raise Breathe::UnknownError, "The BreatheHR API returned an unknown error"
+      end
     end
 
     private
 
-    def body
-      data[type]
-    end
-
-    def link_headers
-      @link_headers ||= begin
-        return nil if response.headers["link"].nil?
-
-        parse_link_headers(response.headers["link"])
-      end
-    end
-
-    def parse_link_headers(header)
-      header.split(",").map { |header|
-        v, k = header.split(";")
-        k = k.match("rel=\"(.+)\"")[1]
-        v = v.match("page=([0-9]+)")[1]
-        [k, v]
-      }.to_h
+    def get_page(rel_type)
+      self.class.new(response: response.rels[rel_type].get, type: type) if response.rels[rel_type]
     end
   end
 end

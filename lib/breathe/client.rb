@@ -1,43 +1,49 @@
 module Breathe
   class Client
+    attr_reader :api_key, :last_response
+
     BASE_URL = "https://api.breathehr.com/v1/"
 
-    def initialize(api_key:)
+    def initialize(api_key:, auto_paginate: false)
       @api_key = api_key
+      @auto_paginate = auto_paginate
     end
 
     def absences
-      @_absences ||= Absences.new(self)
+      @absences ||= Absences.new(self)
     end
 
-    def get(url, url_opts = {})
-      request(:get, url, url_opts)
+    def response(method:, path:, args:)
+      response = request(method: method, path: path, options: {query: args})
+      parsed_response = Response.new(response: response, type: path)
+
+      if parsed_response.success?
+        @auto_paginate ? auto_paginated_response(parsed_response) : parsed_response
+      end
+    end
+
+    def agent
+      Sawyer::Agent.new(BASE_URL, links_parser: Sawyer::LinkParsers::Simple.new) do |http|
+        http.headers["Content-Type"] = "application/json"
+        http.headers["X-Api-Key"] = api_key
+      end
+    end
+
+    def request(method:, path:, data: {}, options: {})
+      @last_response = agent.call(method, path, data, options)
+      @last_response
     end
 
     private
 
-    attr_reader :api_key, :environment
+    def auto_paginated_response(parsed_response)
+      while (next_page = parsed_response.next_page)
+        break if next_page.nil?
 
-    def connection
-      Faraday.new(url: BASE_URL) do |faraday|
-        faraday.use Faraday::Response::RaiseError
-        faraday.adapter Faraday.default_adapter
+        parsed_response.concat(next_page)
       end
-    end
 
-    def request(method, url, url_opts = {})
-      connection.send(method) do |req|
-        req.url BASE_URL + url, url_opts
-        req.headers["Content-Type"] = "application/json"
-        req.headers["X-Api-Key"] = api_key
-      end
-    rescue Faraday::ClientError => e
-      case e.message
-      when /401/
-        raise Breathe::AuthenticationError, "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
-      else
-        raise e
-      end
+      parsed_response
     end
   end
 end

@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 08 Nov 2019 15:14:46 GMT
+      - Fri, 15 Nov 2019 14:31:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -41,9 +41,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 72b67761-22ae-40ff-83ba-3c6365e61001
+      - 5233abc6-735e-49e7-94b7-3a22235823d5
       X-Runtime:
-      - '0.051087'
+      - '0.068328'
       Vary:
       - Origin
       X-Powered-By:
@@ -313,5 +313,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Fri, 08 Nov 2019 15:14:46 GMT
+  recorded_at: Fri, 15 Nov 2019 14:31:14 GMT
 recorded_with: VCR 5.0.0
