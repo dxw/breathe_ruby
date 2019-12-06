@@ -13,6 +13,10 @@ module Breathe
       @absences ||= Absences.new(self)
     end
 
+    def sicknesses
+      @sicknesses ||= Sicknesses.new(self)
+    end
+
     def response(method:, path:, args:)
       response = request(method: method, path: path, options: {query: args})
       parsed_response = Response.new(response: response, type: path)

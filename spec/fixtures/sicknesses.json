@@ -1,0 +1,25 @@
+{
+  "sicknesses": [
+    {
+      "company_sicknesstype": {
+        "id": 95160,
+        "name": "*Please set on return to work"
+      },
+      "employee": {
+        "id": 12345
+      },
+      "id": 111111,
+      "start_date": "2020-01-08",
+      "end_date": "2020-01-08",
+      "half_start": false,
+      "half_start_am_pm": null,
+      "half_end": false,
+      "half_end_am_pm": null,
+      "deducted": "1.0",
+      "status": "returned",
+      "reason": "",
+      "review_notes": null,
+      "fit_note_required": null
+    }
+  ]
+}
