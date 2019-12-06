@@ -1,0 +1,32 @@
+{
+  "absences": [
+    {
+      "employee": {
+        "id": 72088,
+        "first_name": "Jimmy",
+        "last_name": "Henderson",
+        "email": "jimmy.henderson@example.com"
+      },
+      "approved_by": {
+        "id": 72088,
+        "first_name": "George",
+        "last_name": "Terry"
+      },
+      "leave_reason": null,
+      "deducted": "3.5",
+      "work_units": "3.5",
+      "id": 467456,
+      "start_date": "2014-11-04",
+      "half_start": false,
+      "half_start_am_pm": null,
+      "end_date": "2014-11-07",
+      "half_end": true,
+      "half_end_am_pm": "am",
+      "cancelled": true,
+      "notes": "",
+      "type": "Holiday",
+      "created_at": "2015-05-20T15:41:07+01:00",
+      "updated_at": "2015-06-12T12:27:43+01:00"
+    }
+  ]
+}
