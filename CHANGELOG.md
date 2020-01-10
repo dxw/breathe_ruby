@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog]
 
+[0.3.0]
+
+- Allow listing of sicknesses
+- Allow listing of employees and fetching a single employee
+
 [0.1.2]
 
 - Raise an error when API key is incorrect
