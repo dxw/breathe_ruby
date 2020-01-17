@@ -9,6 +9,10 @@ The format is based on [Keep a Changelog]
 - Allow listing of sicknesses
 - Allow listing of employees and fetching a single employee
 
+[0.2.0]
+
+- Use Sawyer
+
 [0.1.2]
 
 - Raise an error when API key is incorrect
@@ -22,7 +26,9 @@ The format is based on [Keep a Changelog]
 
 - Allow listing of absences
 
-[0.1.1]: https://github.com/dxw/breathe_ruby/releases/tag/0.1.2
+[0.3.0]: https://github.com/dxw/breathe_ruby/releases/tag/0.3.0
+[0.2.0]: https://github.com/dxw/breathe_ruby/releases/tag/0.2.0
+[0.1.2]: https://github.com/dxw/breathe_ruby/releases/tag/0.1.2
 [0.1.1]: https://github.com/dxw/breathe_ruby/releases/tag/0.1.1
 [0.1.0]: https://github.com/dxw/breathe_ruby/releases/tag/0.1.0
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/
