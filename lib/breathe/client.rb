@@ -13,9 +13,17 @@ module Breathe
       @absences ||= Absences.new(self)
     end
 
-    def response(method:, path:, args:)
+    def sicknesses
+      @sicknesses ||= Sicknesses.new(self)
+    end
+
+    def employees
+      @employees ||= Employees.new(self)
+    end
+
+    def response(method:, path:, args: {})
       response = request(method: method, path: path, options: {query: args})
-      parsed_response = Response.new(response: response, type: path)
+      parsed_response = Response.new(response: response, type: path.split("/").first)
 
       if parsed_response.success?
         @auto_paginate ? auto_paginated_response(parsed_response) : parsed_response

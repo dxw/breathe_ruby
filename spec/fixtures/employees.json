@@ -1,0 +1,30 @@
+{
+  "employees": [
+    {
+      "length_of_service_in_months": "",
+      "full_or_part_time": "",
+      "photo_url": "",
+      "working_pattern": "",
+      "line_manager": "",
+      "holiday_approver": "",
+      "department": "",
+      "division": "",
+      "location": "",
+      "job_start_date": "",
+      "job_title": "",
+      "id": "",
+      "account_id": "",
+      "first_name": "Clarke",
+      "middle_name": "",
+      "last_name": "Kent",
+      "email": "email@example.com",
+      "join_date": "",
+      "known_as": "",
+      "leaving_date": "",
+      "employee_ref": "",
+      "probation_date": "",
+      "created_at": "",
+      "updated_at": ""
+    }
+  ]
+}

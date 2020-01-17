@@ -38,10 +38,35 @@ client = Breathe::Client.new(api_key: YOUR_API_KEY)
 
 And use like so
 
+### List absences (Holiday and Other leave)
+
 ```ruby
 client.absences.list
 #=> [...]
 ```
+
+### List sicknesses
+
+```ruby
+client.sicknesses.list
+#=> [...]
+```
+
+### List employees
+
+```ruby
+client.employees.list
+#=> [...]
+```
+
+### Get an employee by ID
+
+```ruby
+client.employees.get(id)
+#=> [...]
+```
+
+### Filtering
 
 You can also pass in arguments like so:
 
