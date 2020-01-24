@@ -3,16 +3,11 @@ module Breathe
     extend Forwardable
     attr_reader :response, :type
 
-    delegate [:each, :find, :select, :count, :[]] => :body
+    delegate [:each, :find, :select, :count, :[], :concat] => :body
 
     def initialize(response:, type:)
       @response = response
       @type = type
-    end
-
-    def concat(response)
-      @response = response.response
-      body.concat(response.body)
     end
 
     def body

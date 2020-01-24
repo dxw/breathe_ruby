@@ -27,7 +27,7 @@ RSpec.describe Breathe::Client do
 
     context "when auto_paginate is true" do
       let(:client) { Breathe::Client.new(api_key: breathe_api_key, auto_paginate: true) }
-      let(:headers) { {"Link" => "<#{second_page_url}>; rel=\"next\""} }
+      let(:headers) { {"Content-Type" => "application/json", "Link" => "<#{second_page_url}>; rel=\"next\""} }
       let(:second_page_url) { "https://page2" }
       let!(:second_page_stub) do
         stub_request(:get, second_page_url)

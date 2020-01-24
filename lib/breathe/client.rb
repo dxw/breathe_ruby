@@ -45,13 +45,16 @@ module Breathe
     private
 
     def auto_paginated_response(parsed_response)
+      pages = parsed_response
+
       while (next_page = parsed_response.next_page)
         break if next_page.nil?
 
-        parsed_response.concat(next_page)
+        pages.concat(next_page.body)
+        parsed_response = next_page
       end
 
-      parsed_response
+      pages
     end
   end
 end
