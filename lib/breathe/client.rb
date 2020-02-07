@@ -21,6 +21,10 @@ module Breathe
       @employees ||= Employees.new(self)
     end
 
+    def employee_training_courses
+      @employee_training_courses ||= EmployeeTrainingCourses.new(self)
+    end
+
     def response(method:, path:, args: {})
       response = request(method: method, path: path, options: {query: args})
       parsed_response = Response.new(response: response, type: path.split("/").first)

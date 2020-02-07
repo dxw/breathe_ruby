@@ -1,0 +1,33 @@
+{
+  "employee_training_courses": [
+    {
+      "id": 822226,
+      "name": "Some Conference",
+      "start_on": "2020-01-19",
+      "end_on": "2020-01-22",
+      "half_day": false,
+      "half_day_am_pm": null,
+      "expires_on": null,
+      "hours": null,
+      "cost": "750.0",
+      "status": "Booked",
+      "outcome": "",
+      "remuneration_currency_id": 1,
+      "rejection_reason": "",
+      "notes": "Notes got here",
+      "followup_date": null,
+      "employee": {
+        "id": 123
+      },
+      "company_training_type": {
+        "id": 1234,
+        "name": "Conference"
+      },
+      "company_training_category": {
+        "id": 5677,
+        "name": "Event: Attending / Me"
+      },
+      "company_training_provider": null
+    }
+  ]
+}

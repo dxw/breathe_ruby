@@ -7,6 +7,7 @@ require "breathe/response"
 require "breathe/absences"
 require "breathe/sicknesses"
 require "breathe/employees"
+require "breathe/employee_training_courses"
 
 module Breathe
   class Error < StandardError; end
