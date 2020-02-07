@@ -1,17 +1,8 @@
 module Breathe
-  class EmployeeTrainingCourses
-    attr_reader :client
-
-    def initialize(client)
-      @client = client
-    end
-
-    def list(args = {})
-      client.response(
-        method: :get,
-        path: "employee_training_courses",
-        args: args
-      )
-    end
+  class EmployeeTrainingCourses < Resource
+    RESOURCE_NAME = "employee_training_courses"
+    SUPPORTED_ENDPOINTS = [
+      :list,
+    ]
   end
 end
