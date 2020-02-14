@@ -66,6 +66,13 @@ client.employees.get(id)
 #=> [...]
 ```
 
+### List employee training courses
+
+```ruby
+client.employee_training_courses.list
+#=> [...]
+```
+
 ### Filtering
 
 You can also pass in arguments like so:
