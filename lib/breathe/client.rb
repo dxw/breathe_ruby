@@ -1,8 +1,11 @@
+
 module Breathe
   class Client
     attr_reader :api_key, :last_response
 
-    BASE_URL = "https://api.breathehr.com/v1/"
+    redacted_url = ENV.fetch("BREATHE_REDACTED_API_URL", nil)
+    bearer = !redacted_url.nil?
+    BASE_URL = redacted_url || "https://api.breathehr.com/v1/"
 
     def initialize(api_key:, auto_paginate: false)
       @api_key = api_key
@@ -38,6 +41,7 @@ module Breathe
       Sawyer::Agent.new(BASE_URL, links_parser: Sawyer::LinkParsers::Simple.new) do |http|
         http.headers["Content-Type"] = "application/json"
         http.headers["X-Api-Key"] = api_key
+        http.headers['Authorization'] = "Bearer "+api_key
       end
     end
 
