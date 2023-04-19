@@ -26,7 +26,7 @@ RSpec.describe Breathe::Response do
     end
 
     context "when response is a 500" do
-      let(:sawyer_response) { double("Sawyer::Response", status: 500) }
+      let(:sawyer_response) { double("Sawyer::Response", status: 500, body: '{"error": "bad"}') }
 
       it "raises an error" do
         expect { subject }.to raise_error(
