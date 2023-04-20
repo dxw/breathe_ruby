@@ -2,7 +2,7 @@ module Breathe
   class Client
     attr_reader :api_key, :last_response
 
-    BASE_URL = "https://api.breathehr.com/v1/"
+    BASE_URL = ENV.fetch("BREATHE_API_URL", "https://api.breathehr.com/v1/")
 
     def initialize(api_key:, auto_paginate: false)
       @api_key = api_key
