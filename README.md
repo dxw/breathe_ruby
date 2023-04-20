@@ -111,7 +111,7 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 To install this gem onto your local machine, run `bundle exec rake install`.
 
-To release a new version, update the version number in `breathe/version.rb`, commit the change and then create a git tag for that version in the format `x.x.x` (where x is each version number). Github Actions will then automatically push the latest version to Rubygems.
+To release a new version, update the version number in `lib/breathe/version.rb`, commit the change and then create a git tag for that version in the format `x.x.x` (where x is each version number). Github Actions will then automatically push the latest version to Rubygems.
 
 ## Contributing
 
