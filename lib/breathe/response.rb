@@ -45,6 +45,9 @@ module Breathe
       when 401
         raise Breathe::AuthenticationError, "The BreatheHR API returned a 401 error - are you sure you've set the correct API key?"
       else
+        puts("Unknown Error")
+        puts(response.status)
+        puts(response.body)
         raise Breathe::UnknownError, "The BreatheHR API returned an unknown error"
       end
     end
