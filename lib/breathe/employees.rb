@@ -3,7 +3,7 @@ module Breathe
     RESOURCE_NAME = "employees"
     SUPPORTED_ENDPOINTS = [
       :list,
-      :get,
+      :get
     ]
   end
 end
