@@ -1,6 +1,6 @@
 # Breathe
 
-A Ruby Wrapper for the BreateHR API
+A Ruby Wrapper for the BreatheHR API
 
 ## Installation
 
