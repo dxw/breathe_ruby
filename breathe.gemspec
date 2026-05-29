@@ -25,12 +25,12 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 2.0"
+  spec.add_development_dependency "bundler", "~> 4.0"
   spec.add_development_dependency "rake", ">= 12.3.3"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "standard", "~> 1.40.0"
+  spec.add_development_dependency "standard", "~> 1.54.0"
   spec.add_development_dependency "dotenv", "~> 3.1.4"
-  spec.add_development_dependency "pry", "~> 0.14.1"
+  spec.add_development_dependency "pry", "~> 0.16.0"
   spec.add_development_dependency "webmock", "~> 3.24.0"
 
   spec.add_dependency "sawyer", ">= 0.8.2", "< 0.10.0"

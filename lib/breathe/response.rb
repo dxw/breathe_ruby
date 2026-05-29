@@ -1,6 +1,7 @@
 module Breathe
   class Response
     extend Forwardable
+
     attr_reader :response, :type
 
     delegate [:each, :find, :select, :count, :[], :concat] => :body
